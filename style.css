@@ -65,7 +65,7 @@ body{
     
     font-family:Arial,Helvetica,sans-serif;
 
-    /* Line Height */
+   
     line-height:1.5;
 
 }
@@ -484,7 +484,7 @@ button{
 
 .pricing-grid{
 
-    /* 3 Column Grid */
+   
     display:grid;
 
     grid-template-columns:repeat(3,1fr);
@@ -786,5 +786,166 @@ button{
     font-size:76px;
 
     margin-top:8px;
+
+}
+
+
+.why-section{
+
+    padding:26px 0;
+
+    background:var(--deep-navy);
+
+    color:white;
+
+}
+
+
+
+.why-shell{
+
+    padding:64px 54px;
+
+    border-radius:28px;
+
+}
+
+
+
+.why-top{
+
+    display:grid;
+
+    grid-template-columns:.9fr 1.45fr;
+
+    gap:56px;
+
+}
+
+
+
+.why-copy h2{
+
+    font-size:60px;
+
+    font-weight:800;
+
+}
+
+.why-copy span{
+
+    color:#6b8cff;
+
+}
+
+
+
+.benefit-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:14px;
+
+}
+
+
+
+.benefit-card{
+
+    display:grid;
+
+    place-items:center;
+
+    min-height:142px;
+
+    border-radius:14px;
+
+    background:var(--panel);
+
+    transition:.25s;
+
+}
+
+
+.benefit-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.benefit-icon{
+
+    font-size:28px;
+
+}
+
+
+.testimonial-section{
+
+    margin-top:50px;
+
+}
+
+
+
+.testimonial-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:18px;
+
+}
+
+
+
+.testimonial-card{
+
+    padding:28px;
+
+    border-radius:14px;
+
+    background:var(--panel);
+
+    transition:.25s;
+
+}
+
+
+
+.testimonial-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.stars{
+
+    color:#ffc233;
+
+}
+
+
+
+.testimonial-card blockquote{
+
+    margin-top:18px;
+
+}
+
+
+
+.testimonial-card p{
+
+    margin-top:16px;
+
+    color:#5f8cff;
 
 }
