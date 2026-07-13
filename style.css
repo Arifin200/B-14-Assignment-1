@@ -448,10 +448,10 @@ button{
 
 .pricing-section{
 
-    /* Section Padding */
+    
     padding:86px 0 100px;
 
-    /* White Background */
+
     background:var(--white);
 
 }
@@ -603,5 +603,188 @@ button{
 .dark-outline-action{
 
     border:1px solid var(--navy);
+
+}
+
+.venue-section{
+
+   
+    padding:88px 0;
+
+  
+    background:#f3f6fb;
+
+}
+
+
+
+.venue-layout{
+
+ 
+    display:grid;
+
+    
+    grid-template-columns:1.1fr .9fr;
+
+ 
+    align-items:center;
+
+  
+    gap:58px;
+
+}
+
+
+
+.venue-content{
+
+    padding:18px 0;
+
+}
+
+.venue-content h2{
+
+    margin-top:14px;
+
+    font-size:62px;
+
+    font-weight:800;
+
+}
+
+.venue-intro{
+
+    margin-top:18px;
+
+    color:var(--muted);
+
+}
+
+
+.venue-details{
+
+    margin-top:24px;
+
+}
+
+.venue-details div{
+
+    display:grid;
+
+    grid-template-columns:130px 1fr;
+
+    min-height:56px;
+
+    border-bottom:1px solid #d6deea;
+
+}
+
+.venue-details dt{
+
+    font-weight:bold;
+
+}
+
+.venue-details dd{
+
+    font-weight:800;
+
+}
+
+
+
+.venue-visual{
+
+    position:relative;
+
+    display:grid;
+
+    place-items:center;
+
+    min-height:380px;
+
+    overflow:hidden;
+
+    border-radius:28px;
+
+    background:#0c1a2d;
+
+}
+
+
+
+.venue-glow{
+
+    position:absolute;
+
+    width:240px;
+
+    height:240px;
+
+    border-radius:50%;
+
+    filter:blur(72px);
+
+}
+
+.venue-glow-one{
+
+    top:-45px;
+
+    left:-15px;
+
+    background:rgba(71,107,230,.8);
+
+}
+
+.venue-glow-two{
+
+    bottom:-65px;
+
+    right:-60px;
+
+    background:rgba(55,76,190,.68);
+
+}
+
+
+
+.venue-circle{
+
+    position:relative;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    width:250px;
+
+    height:250px;
+
+    border-radius:50%;
+
+    border:1px solid rgba(255,255,255,.2);
+
+    color:white;
+
+}
+
+.venue-circle span{
+
+    font-size:16px;
+
+    font-weight:bold;
+
+}
+
+.venue-circle strong{
+
+    font-size:76px;
+
+    margin-top:8px;
 
 }
